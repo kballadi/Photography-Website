@@ -1,0 +1,119 @@
+   a{
+    text-decoration: none;
+    color: rgb(22,23,20);
+   }
+  .header-container-nav
+  {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    font-family: "Gilda Display", serif;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: normal;
+    text-align: left;
+    text-decoration-line: none;
+    color: black;
+    fill: rgb(125, 127, 106);
+    text-decoration-style: solid;
+  }
+
+  .header-title-text a
+  {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    order: 1;
+    text-decoration: none;
+    color: black;
+    fill: rgb(125, 127, 106);
+    cursor: pointer;
+    text-decoration-line: none;
+    color: black;
+    fill: rgb(125, 127, 106);
+  }
+
+  .header-nav-bar{
+    display: block;
+    text-align: right;
+    text-size-adjust: 100%;
+    justify-content: right;
+    align-items: center;
+    order: 2;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    flex-wrap: wrap;
+    font-weight: 400;
+  }
+
+  .header-nav-list
+  {
+    margin-top: 10px;
+    order: 2;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: flex-end;
+    text-align: right;
+    text-size-adjust: 100%;
+  }
+
+  .header-nav-item
+  {
+    display: block;
+    align-items: center;
+    text-align: right;
+    font-family: Montserrat, sans-serif;
+    line-height: 28px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 30px ;
+    position: relative;
+  }
+
+  .header-nav-social-buttons{
+    text-decoration: none;
+    color: rgb(22,23,20);
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: left;
+    order: 3;
+    margin-left: 30px;
+    margin-right: 40px;
+  }
+
+  .header-nav-social-button
+  {
+    margin-right: 30px;
+  }
+
+  /* .header-container-social-buttons
+  {
+    display: flex;
+    justify-content: flex-end;
+    order: 3;
+    margin: 0px;
+    align-items: center;
+  } */
+  /* .header-container-social-buttons a
+  {
+    color: rgb(22, 23, 20);
+    cursor: pointer;
+    display: block;
+    font-size: 12;
+    height: 16px;
+    letter-spacing: normal;
+    line-height: 0px;
+    position: relative;
+    text-align: center;
+    text-decoration-style: solid;
+    transition-duration: 0.25s;
+  }  */
