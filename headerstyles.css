@@ -8,7 +8,7 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin: 0px;
+    margin:0px
     font-family: "Gilda Display", serif;
     font-size: 22px;
     font-weight: 800;
@@ -94,6 +94,22 @@
   {
     margin-right: 30px;
   }
+
+  
+  /* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-youtube {
+  background: transparent;
+  color: black;
+}
+
+.fa-instagram {
+  background: transparent;
+  color: black;
+}
 
   /* .header-container-social-buttons
   {
