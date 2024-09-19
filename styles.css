@@ -5,6 +5,9 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: "Gilda Display", serif, Arial, sans-serif;
+    /* background-image: url(images/Evening-Safari-Kabini.png);
+    background-size:cover;
+    background-position: center; */
   }
   
   .social-media-icons {
@@ -44,36 +47,65 @@ body, html {
     background: transparent;
     color: gray;
     margin-right: 20px;
+    font-size: 24px;
   }
 
   .fa-youtube {
     background: transparent;
     color: gray;
     margin-right: 20px;
+    font-size: 24px;
   } 
    .footer-social-media
   {
-   /* display: flex;
-    position: fixed;
-    bottom: 0px;
-    left: 60px;
-    justify-content: space-between; /* Distributes items evenly */
     align-items: center; /* Aligns items vertically in the center */
     text-align: center; 
     bottom: 0;
     display: flex;
     align-items: center; /* Aligns items vertically in the center */
+    justify-content: left;
+    align-content: center;
     padding-left: 40px;
     color: black;
   }
 
   .footer-social-media p{
     font-family: "Open Sans", sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     text-align: center;
     letter-spacing: normal;
     color: rgb(76, 76, 68);
   }
   
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 600px) {
+    .header-nav-list
+    {
+      display: none;
+    }
+
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+    .footer-section
+    {
+      display:  flex;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      padding: 10%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
   
