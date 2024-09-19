@@ -9,7 +9,7 @@
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
-    background-color: rgb(242, 242, 237);
+    background-color: rgb(242, 242, 237);    
     margin-top: 80px;
 }
 
@@ -37,7 +37,7 @@
     align-content: center;
     padding-left: 10%;
     margin-top: 40px; 
-    padding-top: 80px;
+    padding-top: 125px;
     width: 100%;
 }
 

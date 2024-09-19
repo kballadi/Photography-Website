@@ -39,33 +39,43 @@ body, html {
   }
 
   .fa:hover {
-    opacity: 0.7;
+    opacity: 0.8;
+    transition: 0.75sec;
   }
   
+  .fa-instagram:hover
+  {
+    color: #833AB4;
+  }
   
   .fa-instagram {
-    background: transparent;
-    color: gray;
-    margin-right: 20px;
+    background: transparent;    
+    color: #bb5914;
     font-size: 24px;
   }
 
   .fa-youtube {
     background: transparent;
-    color: gray;
-    margin-right: 20px;
+    color: #bb5914;    
     font-size: 24px;
   } 
+
+  .fa-youtube:hover
+  {
+    color: #c71818ee;
+  }
+
+  
    .footer-social-media
   {
     align-items: center; /* Aligns items vertically in the center */
     text-align: center; 
     bottom: 0;
     display: flex;
-    align-items: center; /* Aligns items vertically in the center */
     justify-content: left;
     align-content: center;
     padding-left: 40px;
+    gap: 20px;
     color: black;
   }
 

@@ -1,6 +1,6 @@
    a{
     text-decoration: none;
-    color: white;
+    color: #F5F5F5;
     cursor: pointer;
    }
 
@@ -21,7 +21,7 @@
     letter-spacing: normal;
     text-align: center;
     text-decoration-line: none;
-    background-color: #000000; /* Optional: Adds a background color */
+    background-color: #294c20; /* Optional: Adds a background color */
     color: white;
     fill: rgb(125, 127, 106);
     text-decoration-style: solid;
@@ -39,8 +39,6 @@
     fill: rgb(125, 127, 106);
     cursor: pointer;
     text-decoration-line: none;
-    color: white;
-    fill: rgb(125, 127, 106);
   }
 
   .header-nav-bar{
@@ -88,6 +86,13 @@
     margin-left: 30px ;
     position: relative;
     color: white;
+  }
+
+  a:hover
+  {
+    color: #8B4513;
+    transition: ease-in-out;
+    transition-duration: 0.75sec;
   }
 
   
